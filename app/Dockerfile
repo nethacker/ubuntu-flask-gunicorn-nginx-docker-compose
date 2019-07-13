@@ -1,3 +1,8 @@
+# VERSION 1.0
+# AUTHOR: Phil Chen
+# DOCKER HUB: https://hub.docker.com/u/nethacker
+# DESCRIPTION: A scalable Flask application using Gunicorn on Ubuntu 18.04
+# SOURCE: https://github.com/nethacker/ubuntu-flask-gunicorn-nginx-docker-compose
 FROM nethacker/ubuntu-18-04-python-3:python-3.7.3
 RUN apt-get update && apt-get install -y \
     build-essential \
