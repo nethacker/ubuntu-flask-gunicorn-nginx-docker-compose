@@ -23,5 +23,3 @@ services:
             - app02
         ports:
             - '80:80'
-volumes:
-    backend:
