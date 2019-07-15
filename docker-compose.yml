@@ -6,16 +6,16 @@
 version: '3.7'
 services:
     app01:
+        shm_size: '1000000000'
         build:
             context: ./app
-            shm_size: '1gb'
         tty: true
         volumes:
             - './app/src:/home/ubuntu'
     app02:
+        shm_size: '1000000000'
         build:
             context: ./app
-            shm_size: '1gb'
         tty: true
         volumes:
             - './app/src:/home/ubuntu'
